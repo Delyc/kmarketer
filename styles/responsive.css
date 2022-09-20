@@ -81,6 +81,23 @@
         width: 100%;
     }
 
+    .what-clients-says__testimonies{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .what-clients-says__testimony{
+        width: 60%;
+        height: 10vh !important;
+      
+    }
+
+   
+
+   
+
+    
+
 
   
 
@@ -121,4 +138,164 @@
 
    
 
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .wrapper__navigation{
+        display: none;
+    }
+
+    .hero-section__heading{
+   
+        width: 70%;
+    }
+
+
+
+
+    /* .hero-section__buttons{
+       
+   
+        flex-direction: column;
+    } */
+
+    .choose-us__heading{
+        width: 70%;
+        text-align: center;
+    }
+
+    .choose-us__para{
+        width: 70%;
+    }
+
+    .what-we-provide__heading{
+        width: 100%;
+    }
+
+    .what-we-provide__image-vid{
+        width: 80%;
+    }
+
+    .what-we-provide__img{
+        width: 100%;
+      
+    }
+
+    .make-appointment{
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .make-appointment__contact-appoint{
+        line-height: 30px;
+        margin-top: 1rem;
+    }
+
+    .make-appointment__form{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .make-appointment__identity{
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .make-appointment__identity input{
+        width: 90%;
+    }
+    .make-appointment__identity select{
+        width: 100%;
+    }
+
+    .make-appointment__btn{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .footer-content__useful-links{
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .footer-content__links{
+        width: 40%;
+        
+    }
+
+    .footer-section__get-in-touch--mod{
+        width: 100%;
+    }
+
+    .footer-content__subscribe-btn--mod{
+
+        width: 20vw;
+        
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .what-clients-says__testimonies{
+        flex-direction: row;
+    }
+    .choose-us{
+        width: 80%;
+    }
+    .choose-us__services{
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: yellow;
+        
+
+    }
+/* 
+    .choose-us__service{
+      
+        width: 80vw;
+        background-color: red;
+    } */
+
+    .what-clients-says__testimonies{
+
+        flex-direction: column;
+        width: 80%;
+        background-color: red !important;
+    }
+
+    .what-clients-says__testimony{
+       background-color: yellow;
+
+    }
+
+    .choose-us__service{
+        flex-basis: 200px;
+    }
+
+
+
+
+
+    
 }
