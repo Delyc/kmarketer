@@ -1,0 +1,124 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .wrapper{
+        
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .wrapper__navigation{
+        display: none;
+    }
+
+
+    .wrapper__hero-section{
+        width: 70%;
+    }
+    .hero-section__heading{
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .hero-section__para{
+        width: 100%;
+    }
+
+    .hero-section__buttons{
+       
+   
+        flex-direction: column;
+    }
+
+    .choose-us__heading{
+        width: 70%;
+        text-align: center;
+    }
+
+    .choose-us__para{
+        width: 100%;
+    }
+
+    .what-we-provide__heading{
+        width: 100%;
+    }
+
+    .what-we-provide__image-vid{
+        width: 80%;
+    }
+
+    .what-we-provide__img{
+        width: 100%;
+      
+    }
+
+    .make-appointment{
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .make-appointment__contact-appoint{
+        line-height: 30px;
+        margin-top: 1rem;
+    }
+
+    .make-appointment__form{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .make-appointment__identity{
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .make-appointment__identity input{
+        width: 90%;
+    }
+    .make-appointment__identity select{
+        width: 100%;
+    }
+
+    .make-appointment__btn{
+        width: 100%;
+    }
+
+
+  
+
+
+    .footer-section{
+
+    }
+    .footer-content{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footer-content__campany{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-content__useful-links{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-content__end p{
+        line-height: 20px;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+    .contact__btn{
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+
+
+
+
+
+   
+
+}
